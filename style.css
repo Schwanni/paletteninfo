@@ -149,6 +149,13 @@ main {
   display: none;
 }
 
+.editContainer {
+  position: absolute;
+  background-color: #dadada;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
 footer {
   position: absolute;
   height: 5rem;

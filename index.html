@@ -41,7 +41,7 @@
     </main>
 
     <footer class="ml-3 mb-3">
-      <nav class="font-bold text-blue-600 ">
+      <nav class="font-bold text-blue-600">
         <a href="/mail.html">Fehlenden Artikel Melden</a>
       </nav>
     </footer>
@@ -68,7 +68,6 @@
         .then((response) => response.json())
         .then((jsonData) => {
           data = jsonData; // Speichere die Daten
-          console.log("Daten geladen:", data);
         })
         .catch((error) => console.error("Fehler beim Laden der Daten:", error));
 

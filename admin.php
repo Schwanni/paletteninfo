@@ -14,6 +14,10 @@ if ($conn->connect_error) {
 <meta charset="UTF-8">
 <title>Admin - Palettenregister</title>
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+<link
+      rel="stylesheet"
+      href="style.css"
+    />
 </head>
 <body class="p-6">
     <nav class="flex justify-between">
@@ -23,7 +27,7 @@ if ($conn->connect_error) {
 <input type="text" id="searchInput" placeholder="Artikelnummer oder Beschreibung suchen" class="border p-2 mb-4">
 <div id="results"></div>
 
-<div id="editFormContainer" class="hidden border p-4 mb-4">
+<div id="editFormContainer" class="hidden editContainer border p-4 mb-4">
   <h2 class="font-bold mb-2">Artikel bearbeiten</h2>
   <form id="editForm">
     <input type="hidden" id="editId">
@@ -96,7 +100,7 @@ async function displayResults(query = '') {
                 <strong>${item.artikelNr}</strong> - ${item.beschreibung} 
             </div>
             <div>
-                <button onclick='editEntry(${item.id})' class="bg-yellow-500 text-white px-2 py-1 rounded mr-2">Bearbeiten</button>
+                <button onclick='editEntry(${item.id})' class="bg-yellow-500 text-white px-2 py-1 rounded mr-2"><a href='#editFormContainer'>Bearbeiten</a></button>
                 <button onclick='deleteEntry(${item.id})' class="bg-red-600 text-white px-2 py-1 rounded">Löschen</button>
             </div>
         `;
@@ -110,6 +114,7 @@ document.getElementById('searchInput').addEventListener('input', e => {
 
 // Bearbeiten
 function editEntry(id) {
+    
     const entry = data.find(d => d.id == id);
 
     // Formular anzeigen

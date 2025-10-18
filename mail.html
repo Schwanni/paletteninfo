@@ -75,17 +75,12 @@
         </label>
         <br />
         <button
-        onclick="SendToDB()"
+        onclick="checkArtikelNr()"
         class="border-2 border-dark text-white font-bold bg-blue-500 rounded-xl px-8 py-1"
 >
-        Erstellen
+        Save
       </button>
-       <button
-        onclick="SendMail()"
-        class="border-2 border-dark text-white font-bold bg-blue-500 rounded-xl px-8 py-1"
->
-        Änderung beantragen
-      </button>
+      
       </div>
 
      
@@ -126,7 +121,33 @@
         advancedHidden.classList.toggle("advancedHidden")
       }
 
+      fetch("api.php")
+        .then((response) => response.json())
+        .then((jsonData) => {
+          data = jsonData; // Speichere die Daten
+        })
+        .catch((error) => console.error("Fehler beim Laden der Daten:", error));
 
+        //checks if Artikel Nr. is allready in DB if not create new entry if yes send Email to admin
+      function checkArtikelNr() {
+        const query = document
+          .getElementById("Artikel")
+          .value.toLowerCase();
+
+         const results = data.filter(
+          (item) =>
+            item.artikelNr.toLowerCase().includes(query))
+        
+        if(Artikel.value == results[0].artikelNr) {
+          SendMail()
+        }
+        else {
+          SendToDB()
+        }
+        
+      }
+
+// sends Email to admin
       function SendMail() {
         if (Artikel.value.length < 4) {
           errormsg.innerHTML = "Bitte Artikelnummer angeben.";
@@ -158,9 +179,9 @@
             .send("service_3rymf1j", "template_4aem1wq", params)
             .then(function (res) {
               alert(
-                "Ihre Nachricht wurde weitergeleitet. Nach Prüfung werden die Fehlenden Daten nachgetragen."
+                "Ihre Nachricht wurde weitergeleitet. Nach Prüfung werden die neuen Daten nachgetragen."
               );
-              document.getElementById("errormsg").innerHTML = "Ihre Nachricht wurde weitergeleitet. Nach Prüfung werden die Fehlenden Daten nachgetragen."
+              document.getElementById("errormsg").innerHTML = "Ihre Nachricht wurde weitergeleitet. Nach Prüfung werden die neuen Daten nachgetragen."
             });
           Artikel.value = "";
           Beschreibung.value = "";
@@ -171,6 +192,7 @@
         }
       }
 
+      // create entry in DB
       function SendToDB() {
   let formData = new FormData();
   formData.append("Artikel", Artikel.value);
@@ -189,6 +211,7 @@
   .then(data => {
     if (data.includes("success")) {
       alert("Artikel erfolgreich gespeichert!");
+       document.getElementById("errormsg").innerHTML = "Artikel erfolgreich gespeichert!"
       Artikel.value = "";
       Beschreibung.value = "";
       palette.value = "";
