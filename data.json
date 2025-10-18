@@ -1,0 +1,965 @@
+[
+  {
+    "artikelNr": "1116",
+    "beschreibung": "Ballast",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1117",
+    "beschreibung": "Dinkel",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1170",
+    "beschreibung": "Deli",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1171",
+    "beschreibung": "Urtyp",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1179",
+    "beschreibung": "Sesam",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1173",
+    "beschreibung": "Kümmel",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1172",
+    "beschreibung": "Milch",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1351",
+    "beschreibung": "Urtyp/Deli Mix",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "2078",
+    "beschreibung": "Zwieback 225g",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 32,
+    "packhoehe": 4,
+    "kartonsLage": 8,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "2046",
+    "beschreibung": "Zwieback 400g",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 18,
+    "packhoehe": 3,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "2106",
+    "beschreibung": "Bio Zwieback",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 32,
+    "packhoehe": 4,
+    "kartonsLage": 8,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1071",
+    "beschreibung": "Hotel Urtyp",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 78,
+    "packhoehe": 6,
+    "kartonsLage": 13,
+    "kartons": "Hotel Karton"
+  },
+  {
+    "artikelNr": "1073",
+    "beschreibung": "Hotel Sesam",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 78,
+    "packhoehe": 6,
+    "kartonsLage": 13,
+    "kartons": "Hotel Karton"
+  },
+  {
+    "artikelNr": "1072",
+    "beschreibung": "Hotel Deli",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": 78,
+    "packhoehe": 6,
+    "kartonsLage": 13,
+    "kartons": "Hotel Karton"
+  },
+  {
+    "artikelNr": "1147",
+    "beschreibung": "Ballast 12er",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1149",
+    "beschreibung": "Sesam 12er",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1151",
+    "beschreibung": "Deli 12er",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1152",
+    "beschreibung": "Urtyp 12er",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1239",
+    "beschreibung": "Goldähre",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1208",
+    "beschreibung": "Baule V. Bio Dinkel",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1203",
+    "beschreibung": "Baule V. Bio Deli",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1340",
+    "beschreibung": "Spar Bio",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 66,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1726",
+    "beschreibung": "S-Budget Deli",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1727",
+    "beschreibung": "S-Budget Sesam",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "2209",
+    "beschreibung": "Spar Zwieback",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 72,
+    "packhoehe": 9,
+    "kartonsLage": 8,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "2210",
+    "beschreibung": "Spar Dinkel Zwieback",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 72,
+    "packhoehe": 9,
+    "kartonsLage": 8,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1813",
+    "beschreibung": "Schweiz Deli",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 98,
+    "packhoehe": 7,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1533",
+    "beschreibung": "Tastino ES",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1536",
+    "beschreibung": "Tastino RO/CZ/SI",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1531",
+    "beschreibung": "MJP",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1762",
+    "beschreibung": "El Horno",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1720",
+    "beschreibung": "ICA",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1721",
+    "beschreibung": "ICA Bio",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1384",
+    "beschreibung": "Roggen 12er",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1148",
+    "beschreibung": "Dinkel 12er",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1877",
+    "beschreibung": "Dubei Urtyp",
+    "palette": "Einweg Pal",
+    "kartonsPal": 112,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1878",
+    "beschreibung": "Dubei Ballast",
+    "palette": "Einweg Pal",
+    "kartonsPal": 112,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1740",
+    "beschreibung": "Tartin",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 98,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1741",
+    "beschreibung": "Tartin",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 98,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1859",
+    "beschreibung": "Eroski Ballast",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1643",
+    "beschreibung": "Clever Deli",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1642",
+    "beschreibung": "Clever Sesam",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1760",
+    "beschreibung": "Penny International",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1403",
+    "beschreibung": "Naturata Deli",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 42,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1530",
+    "beschreibung": "Tastino NL",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1399",
+    "beschreibung": "JA! Sesam",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1398",
+    "beschreibung": "JA! Roggen",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1815",
+    "beschreibung": "Biedronka",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1534",
+    "beschreibung": "Tastino SE/DK",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1529",
+    "beschreibung": "Grafschafter DE/AT",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1754",
+    "beschreibung": "SYS Ballast",
+    "palette": "Einweg Pal",
+    "kartonsPal": 112,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1344",
+    "beschreibung": "Bio EDEKA",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1394",
+    "beschreibung": "G+G Milch",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 42,
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1089",
+    "beschreibung": "Alnatura Dinkel",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 36,
+    "packhoehe": 6,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1221",
+    "beschreibung": "Alnatura Sesam",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 36,
+    "packhoehe": 6,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1258",
+    "beschreibung": "DM",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 66,
+    "packhoehe": 11,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1395",
+    "beschreibung": "Kornmühle",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 24,
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1387",
+    "beschreibung": "Leinsamen 12er",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1538",
+    "beschreibung": "Tastino FI",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1918",
+    "beschreibung": "Korni",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 64,
+    "packhoehe": 8,
+    "kartonsLage": 8,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1535",
+    "beschreibung": "Tastino RS/HR",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1753",
+    "beschreibung": "SYS Deli",
+    "palette": "Einweg Pal",
+    "kartonsPal": 112,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1860",
+    "beschreibung": "Monoprix",
+    "palette": "Einweg Pal",
+    "kartonsPal": 112,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1602",
+    "beschreibung": "Alimpex Deli",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1638",
+    "beschreibung": "Alimpex Ballast",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": 54,
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1890",
+    "beschreibung": "USA Classic",
+    "palette": "IPPC (ISPM) Pal",
+    "kartonsPal": 98,
+    "packhoehe": 7,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1891",
+    "beschreibung": "USA Sesam",
+    "palette": "IPPC (ISPM) Pal",
+    "kartonsPal": 98,
+    "packhoehe": 7,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1892",
+    "beschreibung": "USA Ballast",
+    "palette": "IPPC (ISPM) Pal",
+    "kartonsPal": 98,
+    "packhoehe": 7,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1893",
+    "beschreibung": "USA Crunchy Rye",
+    "palette": "IPPC (ISPM) Pal",
+    "kartonsPal": 98,
+    "packhoehe": 7,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1894",
+    "beschreibung": "USA Deli",
+    "palette": "IPPC (ISPM) Pal",
+    "kartonsPal": 98,
+    "packhoehe": 7,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1867",
+    "beschreibung": "Papadop. Rye",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 112,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1868",
+    "beschreibung": "Papadop. Wholegrain",
+    "palette": "1A Euro Pal",
+    "kartonsPal": 112,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1766",
+    "beschreibung": "Sys Sesam",
+    "palette": "Einweg Pal",
+    "kartonsPal": 112,
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1874",
+    "beschreibung": "Eroski Sesam",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": 56,
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1873",
+    "beschreibung": "Estland Urtyp",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "84",
+    "packhoehe": 6,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1871",
+    "beschreibung": "Estland Sesam ",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "84",
+    "packhoehe": 6,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1532",
+    "beschreibung": "Tastino CH/IT",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1098",
+    "beschreibung": "Urtekram Deli",
+    "palette": "1A Euro Pal",
+    "kartonsPal": "72",
+    "packhoehe": 6,
+    "kartonsLage": 12,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1201",
+    "beschreibung": "Urtekram Dinkel",
+    "palette": "1A Euro Pal",
+    "kartonsPal": "72",
+    "packhoehe": 6,
+    "kartonsLage": 12,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1637",
+    "beschreibung": "Island Dinkel",
+    "palette": "Einweg Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1822",
+    "beschreibung": "Carrefour Deli ",
+    "palette": "1A Euro Pal",
+    "kartonsPal": "112",
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1823",
+    "beschreibung": "Carrefour Sesam ",
+    "palette": "1A Euro Pal",
+    "kartonsPal": "112",
+    "packhoehe": 8,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1620",
+    "beschreibung": "Island Sesam",
+    "palette": "Einweg Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1145",
+    "beschreibung": "12er Milch ",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "56",
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1343",
+    "beschreibung": "Billa Sesam",
+    "palette": "1A Euro Pal",
+    "kartonsPal": "66",
+    "packhoehe": 11,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1241",
+    "beschreibung": "CV Sesam ",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "60",
+    "packhoehe": 10,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1404",
+    "beschreibung": "Naturata Sesam",
+    "palette": "1A Euro Pal",
+    "kartonsPal": "42",
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1828",
+    "beschreibung": "Bio Deli Dänemark",
+    "palette": "Einweg Pal",
+    "kartonsPal": "66",
+    "packhoehe": 11,
+    "kartonsLage": 12,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1862",
+    "beschreibung": "Cotrading ES Sesam",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": "56",
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1863",
+    "beschreibung": "Cotrading ES Deli",
+    "palette": "Blaue Euro Chep Pal",
+    "kartonsPal": "56",
+    "packhoehe": 4,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1840",
+    "beschreibung": "Chile Urtyp",
+    "palette": "Einweg Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1841",
+    "beschreibung": "Chile Milch",
+    "palette": "Einweg Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1842",
+    "beschreibung": "Chile Kümmel",
+    "palette": "Einweg Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1843",
+    "beschreibung": "Chile Sesam",
+    "palette": "Einweg Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1844",
+    "beschreibung": "Chile Ballast",
+    "palette": "Einweg Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1839",
+    "beschreibung": "Chile Deli",
+    "palette": "Einweg Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1388",
+    "beschreibung": "Kornmühle Roggen",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "42",
+    "packhoehe": 3,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1389",
+    "beschreibung": "Kornmühle Sesam",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "42",
+    "packhoehe": 3,
+    "kartonsLage": 14,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1765",
+    "beschreibung": "Loona It.",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "42",
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1759",
+    "beschreibung": "Loona It.",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "42",
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1417",
+    "beschreibung": "YON Vollkorn",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "54",
+    "packhoehe": 9,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1827",
+    "beschreibung": "Bio Sesam Dänemark",
+    "palette": "Einweg Pal",
+    "kartonsPal": "66",
+    "packhoehe": 11,
+    "kartonsLage": 12,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1746",
+    "beschreibung": "Bio Sesam Demeter ",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "72",
+    "packhoehe": 6,
+    "kartonsLage": 12,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1747",
+    "beschreibung": "Bio Deli Pural",
+    "palette": "Normale Euro Pal",
+    "kartonsPal": "72",
+    "packhoehe": 6,
+    "kartonsLage": 12,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1386",
+    "beschreibung": "Roggen Kernig",
+    "palette": "1A + Normale Euro Pal",
+    "kartonsPal": "24",
+    "packhoehe": 4,
+    "kartonsLage": 6,
+    "kartons": "24er"
+  },
+  {
+    "artikelNr": "1857",
+    "beschreibung": "Bio Sesam Map",
+    "palette": "Einweg Pal",
+    "kartonsPal": "42",
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  },
+  {
+    "artikelNr": "1858",
+    "beschreibung": "Bio 5er Saat Map",
+    "palette": "Einweg Pal ",
+    "kartonsPal": "42",
+    "packhoehe": 7,
+    "kartonsLage": 6,
+    "kartons": "12er"
+  }
+]

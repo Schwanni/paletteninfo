@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="ml-3 mt-3 mail">
+      <input
+        type="text"
+        id="Artikel"
+        placeholder="Artikel Nr."
+        required
+        class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none"
+      /><br />
+      <input
+        type="text"
+        id="Beschreibung"
+        placeholder="Beschreibung"
+        required
+        class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none"
+      /><br />
+      <input
+        type="number"
+        id="kpp"
+        placeholder="Karton pro Palette"
+        class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none"
+        required
+      /><br />
+      <label for="palette">
+      <select id="palette" name="palette"
+      class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none"
+        required>
+        <option value="">Pal. wählen</option>
+        <option value="Normale Euro Pal">Normale Euro Pal</option>
+        <option value="1A Euro Pal">1A Euro Pal</option>
+        <option value="1A + Normale Euro Pal">1A + Normale Euro Pal</option>
+        <option value="Einweg Pal">Einweg Pal</option>
+        <option value="Blaue Euro Chep Pal">Blaue Euro Chep Pal</option>
+        
+      </select>
+      </label>
+      <br />
+      
+          <input
+        type="number"
+        id="packhoehe"
+        placeholder="Packhöhe"
+        class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none"
+          />
+          <br />
+          <input
+        type="number"
+        id="kartonsLage"
+        placeholder="Kartons pro Reihe"
+        class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none "
+          />
+          <br />
+          <label for="kartonArt">
+          <select id="kartonArt" name="kartonArt"
+          class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none "
+        >
+          <option value="12er">12er</option>
+          <option value="24er">24er</option>       
+        </select>
+        </label>
+        <br />
+        <button
+        onclick="SendToDB()"
+        class="border-2 border-dark text-white font-bold bg-blue-500 rounded-xl px-8 py-1"
+>
+        Erstellen
+      </button>
+       <button
+        onclick="SendMail()"
+        class="border-2 border-dark text-white font-bold bg-blue-500 rounded-xl px-8 py-1"
+>
+        Änderung beantragen
+      </button>
+      </div>
+
+     
+    <br>
+      <span
+        id="errormsg"
+        class="font-bold text-red-500"
+        >&nbsp;</span
+      >
+    
+    </div>
+    <footer class="ml-3 mb-3">
+      <nav class="font-bold text-blue-600">
+        <a href="/">Startseite</a>
+      </nav>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("vPQtsi1Qjpq9lbf2q");
+      })();
+
+      let Artikel = document.getElementById("Artikel");
+      let Beschreibung = document.getElementById("Beschreibung");
+      let palette = document.getElementById("palette");
+      let kpp = document.getElementById("kpp");
+      let errormsg = document.getElementById("errormsg");
+      let packhoehe = document.getElementById("packhoehe");
+      let kartonsLage = document.getElementById("kartonsLage");
+      let kartonArt = document.getElementById("kartonArt");
+      const advancedHidden = document.getElementById("advancedHidden"); 
+
+
+      function toogleHidden() {
+        advancedHidden.classList.toggle("advancedHidden")
+      }
+
+
+      function SendMail() {
+        if (Artikel.value.length < 4) {
+          errormsg.innerHTML = "Bitte Artikelnummer angeben.";
+          return;
+        }
+        if (Beschreibung.value.length < 2) {
+          errormsg.innerHTML = "Bitte Beschreibung angeben.";
+          return;
+        }
+        if (kpp.value.length < 2) {
+          errormsg.innerHTML = "Bitte Kartons pro Palette angeben.";
+          return;
+        }
+        if (palette.value.length < 2) {
+          errormsg.innerHTML = "Bitte Paletten Art angeben.";
+          return;
+        
+        } else {
+          let params = {
+            Artikel: document.getElementById("Artikel").value,
+            Beschreibung: document.getElementById("Beschreibung").value,
+            palette: document.getElementById("palette").value,
+            kpp: document.getElementById("kpp").value,
+            packhoehe: document.getElementById("packhoehe").value,
+            kartonsLage: document.getElementById("kartonsLage").value,
+            kartonArt: document.getElementById("kartonArt").value,
+          };
+          emailjs
+            .send("service_3rymf1j", "template_4aem1wq", params)
+            .then(function (res) {
+              alert(
+                "Ihre Nachricht wurde weitergeleitet. Nach Prüfung werden die Fehlenden Daten nachgetragen."
+              );
+              document.getElementById("errormsg").innerHTML = "Ihre Nachricht wurde weitergeleitet. Nach Prüfung werden die Fehlenden Daten nachgetragen."
+            });
+          Artikel.value = "";
+          Beschreibung.value = "";
+          document.getElementById("palette").value = "";
+          document.getElementById("kpp").value = "";
+          document.getElementById("packhoehe").value = "";
+          document.getElementById("kartonsLage").value = "";
+        }
+      }
+
+      function SendToDB() {
+  let formData = new FormData();
+  formData.append("Artikel", Artikel.value);
+  formData.append("Beschreibung", Beschreibung.value);
+  formData.append("palette", palette.value);
+  formData.append("kpp", kpp.value);
+  formData.append("packhoehe", packhoehe.value);
+  formData.append("kartonsLage", kartonsLage.value);
+  formData.append("kartonArt", kartonArt.value);
+
+  fetch("insert.php", {
+    method: "POST",
+    body: formData
+  })
+  .then(res => res.text())
+  .then(data => {
+    if (data.includes("success")) {
+      alert("Artikel erfolgreich gespeichert!");
+      Artikel.value = "";
+      Beschreibung.value = "";
+      palette.value = "";
+      kpp.value = "";
+      packhoehe.value = "";
+      kartonsLage.value = "";
+      kartonArt.value = "";
+    } else {
+      errormsg.innerHTML = "Fehler beim Speichern: " + data;
+    }
+  })
+  .catch(err => {
+    errormsg.innerHTML = "Serverfehler: " + err;
+  });
+}
+    </script>
+  </body>
+</html>
