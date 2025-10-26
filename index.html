@@ -122,6 +122,9 @@
             const div = document.createElement("div");
             div.innerHTML = `<div class="Artikelnummer">Artikelnummer: <p class="nummer">${item.artikelNr}</p></div><div class="Beschreibung"> Beschreibung: ${item.beschreibung}</div> `;
             div.style.cursor = "pointer"; // Zeige an, dass es klickbar ist
+            div.style.boxShadow = "5px 5px 5px 1px #000000";
+            div.style.padding = "0 1rem";
+            div.style.borderRadius = "10px";
             div.addEventListener("click", () => showDetails(item)); // Klick-Event hinzufügen
             resultsDiv.appendChild(div);
           });
