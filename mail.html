@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -31,11 +31,20 @@
       /><br />
       <input
         type="number"
-        id="kpp"
-        placeholder="Karton pro Palette"
+        id="packhoehe"
+        placeholder="Packhöhe"
         class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none"
-        required
-      /><br />
+        onchange="calcKpp()"
+          />
+          <br />
+          <input
+        type="number"
+        id="kartonsLage"
+        placeholder="Kartons pro Reihe"
+        class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none "
+        onchange="calcKpp()"
+          />
+          <br />
       <label for="palette">
       <select id="palette" name="palette"
       class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none"
@@ -51,20 +60,14 @@
       </label>
       <br />
       
+          
           <input
         type="number"
-        id="packhoehe"
-        placeholder="Packhöhe"
+        id="kpp"
+        placeholder="Karton pro Palette"
         class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none"
-          />
-          <br />
-          <input
-        type="number"
-        id="kartonsLage"
-        placeholder="Kartons pro Reihe"
-        class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none "
-          />
-          <br />
+        required
+          /><br />
           <label for="kartonArt">
           <select id="kartonArt" name="kartonArt"
           class="border-2 px-2 mb-1 border-dark dark:text-dark focus:border-green-500 focus:outline-none "
@@ -121,6 +124,18 @@
         advancedHidden.classList.toggle("advancedHidden")
       }
 
+      
+      function calcKpp() {
+        if(packhoehe.value == 0 || kartonsLage.value == 0){
+          return;
+        }
+        else {
+          console.log(packhoehe.value, kartonsLage.value)
+        let calculatetKpp = packhoehe.value * kartonsLage.value
+        kpp.value = calculatetKpp
+      }
+      }
+
       fetch("api.php")
         .then((response) => response.json())
         .then((jsonData) => {
@@ -130,13 +145,37 @@
 
         //checks if Artikel Nr. is allready in DB if not create new entry if yes send Email to admin
       function checkArtikelNr() {
+       
         const query = document
           .getElementById("Artikel")
           .value.toLowerCase();
 
-         const results = data.filter(
+        const results = data.filter(
           (item) =>
-            item.artikelNr.toLowerCase().includes(query))
+            item.artikelNr.toLowerCase().includes(query)             
+        );
+
+        // Prüfe Inhalt der DB
+
+        if (Artikel.value.length < 1) {
+          document.getElementById("results").innerHTML =
+            "Bitte Artikelnummer eingeben";
+          return;
+        }
+
+         else {
+          const results = data.filter((item) => {
+            const artikel = item.artikelNr ? item.artikelNr.toLowerCase() : "";
+            
+
+            return (
+              artikel.includes(query) 
+            );
+          }); }
+
+          // console.log(results[0].artikelNr)
+
+          // vergleiche Artikel Nr. in Label mit der aus der DB
         
         if(Artikel.value == results[0].artikelNr) {
           SendMail()
